@@ -1,6 +1,6 @@
 import JatekView from "./JatekView.js";
 
-class KonyvekView {
+class JatekokView {
   constructor(tomb, szuloElem) {
     szuloElem.html(`<div>
                 <h1>Id</h1>

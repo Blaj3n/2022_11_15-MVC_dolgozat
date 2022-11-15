@@ -2,16 +2,16 @@ class JatekView {
   #jatek;
   constructor(jatek, szulojatek) {
     this.#jatek = jatek;
-    // console.log("JatekView");
+    console.log("JatekView");
     console.log(jatek);
-    szulojatek.append(`<div>
-                            <h1>${jatek.id}</h1>
-                            <h2>${jatek.cim}</h2>
-                            <h1>${jatek.besorolas}</h1>
-                            <h2>${jatek.ar}</h2>
+    szulojatek.append(`<li>
+                            <a>${jatek.id}</a>
+                            <a>${jatek.cim}</a>
+                            <a>${jatek.besorolas}</a>
+                            <a>${jatek.ar}</a>
           <td><button id="mod${jatek.id}">Módosít</button></td>
           <td><button id="del${jatek.id}">Töröl</button></td>
-          </div>`);
+          </li>`);
     //gombok eseménykezelői
     this.sorjatek = szulojatek.children("tr:last-child");
     console.log(this.sorjatek);
