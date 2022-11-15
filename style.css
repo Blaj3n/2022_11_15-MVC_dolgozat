@@ -1,37 +1,32 @@
-.container{
-    max-width: 1500px;
-    margin: auto;
-    padding: auto;
-    background-color:#c7ddcc;
-    display:grid;
-    grid-template-areas: 
-    'jatek jatek jatek jatek';
-    grid-gap: 50px 50px;
-    font-size: 18px;
-    font-family: "Times New Roman", Times, serif;
+.container {
+  max-width: 1500px;
+  margin: auto;
+  padding: auto;
+  background-color: #abd699;
+  display: grid;
+  grid-template-areas: "jatek jatek jatek jatek";
+  grid-gap: 50px 50px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
 }
-body{
-    background-color:#abd699;
+body {
+  background-color: #75c9b7;
 }
-.jatek{
-    background-color: #75c9b7;
+.jatek {
+  background-color: #c7ddcc;
 }
-
 
 @media only screen and (max-width: 1000px) {
-    .container{
-        max-width:1000px;
-        grid-template-areas: 
-    'jatek jatek';
+  .container {
+    max-width: 1000px;
+    grid-template-areas: "jatek jatek";
     font-size: 25px;
-    }
+  }
 }
 @media only screen and (max-width: 500px) {
-    .container{
-    max-width:500px;
-    grid-template-areas: 
-    'jatek';
+  .container {
+    max-width: 500px;
+    grid-template-areas: "jatek";
     font-size: 30px;
-    }
+  }
 }
-

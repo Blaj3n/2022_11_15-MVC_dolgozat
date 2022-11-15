@@ -9,11 +9,11 @@ class JatekView {
                             <a>${jatek.cim}</a>
                             <a>${jatek.besorolas}</a>
                             <a>${jatek.ar}</a>
-          <td><button id="mod${jatek.id}">Módosít</button></td>
-          <td><button id="del${jatek.id}">Töröl</button></td>
+          <a><button id="mod${jatek.id}">Módosít</button></a>
+          <a><button id="del${jatek.id}">Töröl</button></a>
           </li>`);
     //gombok eseménykezelői
-    this.sorjatek = szulojatek.children("tr:last-child");
+    this.sorjatek = szulojatek.children(":last-child");
     console.log(this.sorjatek);
     this.modositJatek = $(`#mod${jatek.id}`);
     this.torolJatek = $(`#del${jatek.id}`);
