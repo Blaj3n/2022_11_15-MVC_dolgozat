@@ -1,0 +1,22 @@
+{
+    "jatek": [
+        {
+            "id": 1,
+            "cim": "Doom Eternal",
+            "besorolas": "18+",
+            "ar": 9000
+        },
+        {
+            "id": 2,
+            "cim": "Minecraft",
+            "besorolas": "7",
+            "ar": 13000
+        },
+        {
+            "id": 3,
+            "cim": "Tetris",
+            "besorolas": "nincs korhatár",
+            "ar": "ingyenes"
+        }
+    ]
+}
